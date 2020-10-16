@@ -12,7 +12,7 @@ Alternatively, run the following commands from the `miranda` folder:
 ```bash
 make cleanup
 make 
-make install
+sudo make install
 ```
 
 ## Installing the binary ## 
