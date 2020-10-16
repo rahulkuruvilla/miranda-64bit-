@@ -25,7 +25,7 @@ sudo tar xzpf mira.tgz -C /
 
 Installs the binary to the /usr/local dir, rather than /usr dir. Refer to the makefile for further detail. This workaround is to eliminate the need to disable SIP protection on a Mac.
 
-## Running miranda ## 
+## Running miranda
 
 To run miranda just run the terminal command: 
 ```bash
