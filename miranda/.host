@@ -1,2 +1,2 @@
-host: x86_64 Darwin 19.5.0
-InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+host: x86_64 Linux 5.4.0-59-generic
+gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04) 

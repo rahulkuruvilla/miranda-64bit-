@@ -1,13 +1,13 @@
 all: mira miralib/menudriver exfiles
 #install paths relative to /
 #for linux, MacOS X, Cygwin:
-#BIN=usr/bin
-#LIB=usr/lib#beware no spaces after LIB
-#MAN=usr/share/man/man1
+BIN=usr/bin
+LIB=usr/lib#beware no spaces after LIB
+MAN=usr/share/man/man1
 #for Solaris:
-BIN=usr/local/bin
-LIB=usr/local/lib#beware no spaces after LIB
-MAN=usr/local/man/man1
+#BIN=usr/local/bin
+#LIB=usr/local/lib#beware no spaces after LIB
+#MAN=usr/local/man/man1
 CC = gcc -w
 CFLAGS = #-O #-DCYGWIN #-DUWIN #-DIBMRISC #-Dsparc7 #-Dsparc8
 #be wary of using anything higher than -O as the garbage collector may fall over
